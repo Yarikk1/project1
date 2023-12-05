@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Oranienbaum&family=Raleway:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Roboto+Condensed:wght@400;500;600;700&display=swap');
+@import 'global-styles/globals';
+@import 'global-styles/reset';
+
+* {
+  margin: 0;
+  font-family: Roboto Condensed;
+}
+
+body {
+  background-color: rgba(245, 246, 250, 1);
+}
+
+@mixin circle($w, $h) {
+  width: $w;
+  height: $h;
+  border-radius: 50%;
+  background-color: var(--green);
+}
+
+.circle {
+  @include circle(5px, 5px)
+}
+
+.container-popular__title {
+  font-size: 47px;
+  text-align: center;
+  margin: 49px;
+}
+
+.container-popular__navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 27px;
+  gap: 10px;
+
+  &-btn {
+    background-color: var(--gray5);
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: var(--gray6);
+
+    &:hover {
+      background-color: var(--green);
+      color: white;
+    }
+  }
+
+  &-arrow-l {
+    width: 9px;
+    margin: 5px;
+  }
+
+  &-arrow-r {
+    width: 9px;
+    margin: 5px;
+    rotate: 180deg;
+  }
+
+  &-a {
+    color: var(--yellow);
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+    border-bottom: 2px dashed;
+  }
+}
+
+.all-blocks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 28px;
+
+  &__blocks {
+    display: flex;
+    gap: 28px;
+
+    &-block {
+      width: 349px;
+      height: 505px;
+      border-radius: 14px;
+      background-color: var(--white1);
+
+      &-img {
+        height: 220px;
+        background-image: url(./images/Ataman.jpg);
+      }
+
+      &-title {
+        font-size: 29px;
+        margin: 28px;
+        font-weight: 700;
+      }
+
+      &-all {
+        display: flex;
+        gap: 74px;
+        margin-left: 31px;
+
+        &-content {
+          display: flex;
+          flex-direction: column;
+          gap: 9px;
+          font-size: 13px;
+          color: var(--gray4);
+        }
+
+        &-subcontent {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap: 7px;
+          font-size: 13px;
+          color: var(--gray4);
+          margin-top: 30px;
+          margin-bottom: 15px;
+
+          &-c {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+          }
+
+          &-n {
+            font-size: 32px;
+            color: var(--green);
+          }
+
+          &-t {
+            margin-left: 140px;
+          }
+
+          &-t1 {
+            margin-left: 30px;
+          }
+        }
+      }
+
+      &-footer {
+        display: flex;
+        align-items: center;
+
+        &-btn {
+          display: flex;
+          gap: 12px;
+          align-items: center;
+          justify-content: center;
+          padding: 13px 23px;
+          border-radius: 5px;
+          background-color: var(--orange);
+          margin-left: 31px;
+          color: white;
+          font-size: 12px;
+          font-weight: 700;
+
+          &-i {
+            width: 8px;
+            rotate: 180deg;
+          }
+        }
+
+        &-i {
+          width: 9px;
+          margin-left: 33px;
+        }
+
+        &-c {
+          width: 30%;
+          font-size: 9px;
+          margin-left: 9px;
+          color: var(--gray2);
+          
+        }
+      }
+    }
+  }
+}

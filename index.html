@@ -4,514 +4,439 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>House world</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
   </head>
   <body>
-    <header>
-      <h1>HOUSE WORLD</h1>
-      <h4>Дома и бани от новогодних мастеров</h4>
-      <p>Рейтигш в Google на основании 180 отзывов</p>
-      <button>Прислать проект на расчет</button>
-      <a href="">info@house.world</a>
-      <p>Мы онлайн</p>
-      <p>Без выходных с 10:00 до 20:00</p>
-      <a href="">+7 (800) 000-00-00</a>
-      <nav>
-        <a href=""><h2>ПРОЕКТЫ</h2></a>
-        <a href=""><h2>ФОТО РАБОТ</h2></a>
-        <a href=""><h2>АКЦИИ</h2></a>
-        <a href=""><h2>УСЛУГИ</h2></a>
-        <a href=""><h2>ЗАКАЗЧИКУ</h2></a>
-        <a href=""><h2>КОНТАКТЫ</h2></a>
-        <a href=""><h2>ИЗБРАННОЕ</h2></a>
-        <a href=""><h2>ПОИСК</h2></a>
+    <section class="container-popular">
+      <h1 class="container-popular__title">
+        Посмотрите популярные проекты домов
+      </h1>
+      <nav class="container-popular__navigation">
+        <img
+          src="./icons/arrow.svg"
+          alt=""
+          class="container-popular__navigation-arrow-l"
+        />
+        <button class="container-popular__navigation-btn">Одноэтажный</button>
+        <button class="container-popular__navigation-btn">С мансардой</button>
+        <button class="container-popular__navigation-btn">Двухэтажный</button>
+        <button class="container-popular__navigation-btn">
+          С цокольным этажом
+        </button>
+        <button class="container-popular__navigation-btn">Трехэтажные</button>
+        <button class="container-popular__navigation-btn">
+          С панорамными окнами
+        </button>
+        <button class="container-popular__navigation-btn">С гаражом</button>
+        <img
+          src="./icons/arrow.svg"
+          alt=""
+          class="container-popular__navigation-arrow-r"
+        />
+        <a href="" class="container-popular__navigation-a">Смотреть все</a>
       </nav>
-    </header>
-    <main>
-      <section>
-        <h1>Строительство деревянных домов под ключ в Курске</h1>
-        <h3>Построим теплый и надежный дом с гарантией 10 лет</h3>
-        <button>РАССЧИТАТЬ СТОИМОСТЬ</button>
-        <p>40 собственных опытных бригад</p>
-        <p>Свое производство строительных материалов</p>
-        <p>Тысяячи довольных клиентов с 1998 года</p>
-        <p>Гарантия на все строительные работы по договору</p>
-      </section>
-      <section>
-        <h1>Рассчитайте предварительную стоимость дома за 1 минуту</h1>
-        <h4>Что будем строить?</h4>
-        <img src="./images/House1.jpg" alt="" />
-        <p>Дом</p>
-        <img src="./images/Bathhouse1.jpg" alt="" />
-        <p>Баня</p>
-        <p>Нажимайте на вариант ответа и переходите к следующему вопросу</p>
-        <button>Далее</button>
-        <aside>
-          <img src="./images/MikhailIvanov.jpg" alt="" />
-          <h1>Михаил Иванов</h1>
-          <h4>Ведущий архитектор</h4>
-          <p>Ответив на вопросы вы получите:</p>
-          <p>Гарантированную скидку 1%</p>
-          <p>Ориентировочную стоимость строительства</p>
-          <p>Точную подборку проектов исходя из ваших ответов</p>
-        </aside>
-      </section>
-      <section>
-        <h1>
-          Мы строим деревянные дома и бани с учетом всех особенностей Курска
-        </h1>
-        <article>
-          <h1>Каркасные дома</h1>
-          <p>100+ проектов</p>
-          <p>от 21 800 руб/м</p>
-          <button>СМОТРЕТЬ ПРОЕКТЫ</button>
-        </article>
-        <article>
-          <h1>Дома из бруса</h1>
-          <p>100+ проектов</p>
-          <button>СМОТРЕТЬ ПРОЕКТЫ</button>
-          <p>от 19 700 руб/м</p>
-        </article>
-        <article>
-          <h1>Срубы под усадку</h1>
-          <p>100+ проектов</p>
-          <button>СМОТРЕТЬ ПРОЕКТЫ</button>
-          <p>от 19 700 руб/м</p>
-        </article>
-        <article>
-          <h1>Бани из бруса</h1>
-          <p>100+ проектов</p>
-          <button>СМОТРЕТЬ ПРОЕКТЫ</button>
-          <p>от 19 700 руб/м</p>
-        </article>
-        <article>
-          <h1>Каркасные бани</h1>
-          <p>100+ проектов</p>
-          <p>от 20 800 руб/м</p>
-          <button>СМОТРЕТЬ ПРОЕКТЫ</button>
-        </article>
-        <article>
-          <h1>Перевозные бани</h1>
-          <p>100+ проектов</p>
-          <button>СМОТРЕТЬ ПРОЕКТЫ</button>
-          <p>от 19 700 руб/м</p>
-        </article>
-        <article>
-          <h1>Срубы под усадку</h1>
-          <p>100+ проектов</p>
-          <button>СМОТРЕТЬ ПРОЕКТЫ</button>
-          <p>от 21 800 руб/м</p>
-        </article>
-      </section>
-      <section>
-        <h1>Посмотрите популярные проекты домов</h1>
-        <nav>
-          <a href=""><h3>Одноэтажный</h3></a>
-          <a href=""><h3>С мансардой</h3></a>
-          <a href=""><h3>Двухэтажный</h3></a>
-          <a href=""><h3>С цокольным этажом</h3></a>
-          <a href=""><h3>Трехэтажные</h3></a>
-          <a href=""><h3>С панорамными окнами</h3></a>
-          <a href=""><h3>с гаражом</h3></a>
-          <button>Смотреть все</button>
-        </nav>
-        <article>
-          <img src="./images/Ataman.png" alt="" />
-          <h1>"Атаман"</h1>
-          <p>Площадь: 108м.</p>
-          <p>Площадь 108м.</p>
-          <p>Срок стройки: 16 дней</p>
-          <p>Комнат: 5</p>
-          <p>Тип дома: <b>Каркасный</b></p>
-          <p>Стоимость: <b>от 1 780 000 руб</b></p>
-          <button>СМОТРЕТЬ ПРОЕКТЫ</button>
-          <p>Индивидуальная планировка дома</p>
-        </article>
-        <article>
-          <img src="./images/Ataman.png" alt="" />
-          <h1>"Атаман"</h1>
-          <p>Площадь: 108м.</p>
-          <p>Площадь 108м.</p>
-          <p>Срок стройки: 16 дней</p>
-          <p>Комнат: 5</p>
-          <p>Тип дома: <b>Каркасный</b></p>
-          <p>Стоимость: <b>от 1 780 000 руб</b></p>
-          <button>СМОТРЕТЬ ПРОЕКТЫ</button>
-          <p>Индивидуальная планировка дома</p>
-        </article>
-        <article>
-          <img src="./images/Ataman.png" alt="" />
-          <h1>"Атаман"</h1>
-          <p>Площадь: 108м.</p>
-          <p>Площадь 108м.</p>
-          <p>Срок стройки: 16 дней</p>
-          <p>Комнат: 5</p>
-          <p>Тип дома: <b>Каркасный</b></p>
-          <p>Стоимость: <b>от 1 780 000 руб</b></p>
-          <button>СМОТРЕТЬ ПРОЕКТЫ</button>
-          <p>Индивидуальная планировка дома</p>
-        </article>
-        <article>
-          <img src="./images/Ataman.png" alt="" />
-          <h1>"Атаман"</h1>
-          <p>Площадь: 108м.</p>
-          <p>Площадь 108м.</p>
-          <p>Срок стройки: 16 дней</p>
-          <p>Комнат: 5</p>
-          <p>Тип дома: <b>Каркасный</b></p>
-          <p>Стоимость: <b>от 1 780 000 руб</b></p>
-          <button>СМОТРЕТЬ ПРОЕКТЫ</button>
-          <p>Индивидуальная планировка дома</p>
-        </article>
-        <article>
-          <img src="./images/Ataman.png" alt="" />
-          <h1>"Атаман"</h1>
-          <p>Площадь: 108м.</p>
-          <p>Площадь 108м.</p>
-          <p>Срок стройки: 16 дней</p>
-          <p>Комнат: 5</p>
-          <p>Тип дома: <b>Каркасный</b></p>
-          <p>Стоимость: <b>от 1 780 000 руб</b></p>
-          <button>СМОТРЕТЬ ПРОЕКТЫ</button>
-          <p>Индивидуальная планировка дома</p>
-        </article>
-        <article>
-          <img src="./images/Ataman.png" alt="" />
-          <h1>"Атаман"</h1>
-          <p>Площадь: 108м.</p>
-          <p>Площадь 108м.</p>
-          <p>Срок стройки: 16 дней</p>
-          <p>Комнат: 5</p>
-          <p>Тип дома: <b>Каркасный</b></p>
-          <p>Стоимость: <b>от 1 780 000 руб</b></p>
-          <button>СМОТРЕТЬ ПРОЕКТЫ</button>
-          <p>Индивидуальная планировка дома</p>
-        </article>
-      </section>
-      <section>
-        <h1>Ваш идеальный дом всего за 6 этапов</h1>
-        <nav>
-          <a href=""><h3>Этап 1</h3></a>
-          <a href=""><h3>Этап 2</h3></a>
-          <a href=""><h3>Этап 3</h3></a>
-          <a href=""><h3>Этап 4</h3></a>
-          <a href=""><h3>Этап 5</h3></a>
-          <a href=""><h3>Этап 6</h3></a>
-        </nav>
-        <img src="./images/People.jpg" alt="" />
-        <article>
-          <p>Время: <b>1 день</b></p>
-          <h1>Согласование проекта коттеджа</h1>
-          <p>Выбор объекта</p>
-          <p>Расчет стоимости</p>
-          <p>Утверждение планировки</p>
-          <p>
-            Первый этам помогает вам узнать преимущества работы с нами и ни к
-            чему вас не обязывает
-          </p>
-          <aside><h1>Пример договора</h1></aside>
-        </article>
-      </section>
-      <section>
-        <h1>Акции и подарки для каждой семьи</h1>
-        <article>
-          <h1>Любая перепланировка в подарок!</h1>
-          <p>
-            Рыбатекст используется дизайнерами и проектировщиками и
-            фронтендерами, когда нужно быстро заполнить макеты или прототипы
-            содержимым
-          </p>
-          <h2><button>ПЕРЕЙТИ К АКЦИИ</button></h2>
-        </article>
-        <article>
-          <h1>Металлическая дверь в подарок!!</h1>
-          <p>
-            Рыбатекст используется дизайнерами и проектироващиками и
-            фронтендерами, когда нужно быстро заполнить макеты или прототипы
-            содержимым
-          </p>
-          <h2><button>ПЕРЕЙТИ К АКЦИИ</button></h2>
-          <p>15% СКИДКА</p>
-        </article>
-      </section>
-      <section>
-        <section>
-          <article><img src="./images/House4.jpg" alt="" /></article>
-          <article>
-            <img src="./images/House4.jpg" alt="" width="84" />
-            <img src="./images/House4.jpg" alt="" width="84" />
-            <img src="./images/House4.jpg" alt="" width="84" />
-            <img src="./images/House4.jpg" alt="" width="84" />
-          </article>
-        </section>
-        <article>
-          <h1>Посмотрите дома, построенные нами за прошлый год</h1>
-          <button>Показать на карте</button>
-          <h1>Дом из сруба "Атаман" в Пестово</h1>
-          <p>Стоимость строительства: <b>1 780 000</b> руб</p>
-          <p>Сроки строительства: <b>35</b> дней</p>
-          <p>Общая площадь: <b>120</b> руб</p>
-        </article>
-        <article>
-          <p>Площадь: <b>120 кв.м.</b></p>
-          <p>Срок стройки: <b>16 дней</b></p>
-          <p>Размеры: <b>7х9</b></p>
-          <p>Комнат: <b>5</b></p>
-          <p>Тип работ: <b>Под ключ</b></p>
-          <p>Фундамент: <b>Монолитная плита</b></p>
-        </article>
-        <article>
-          <p>Понравился дом? Рассчитайте стоимость в калькуляторе</p>
-          <h3><button>Рассчитать стоимость</button></h3>
-        </article>
-      </section>
-      <section>
-        <h1>Запишитесь на бесплатную экскурсию по строящимся объектам</h1>
-        <p>
-          На экскурсии вы сможете пообщаться с прорабом и строителями, а также:
-        </p>
-        <p>Познакомитесь с технологией строительства</p>
-        <p>Оцените качество материалов на стройплощадке</p>
-        <p>Зададите вопросы руководителю строительства</p>
-        <p>Укажите дату:</p>
-        <input type="text" />
-        <p>Введите телефон:</p>
-        <input type="text" />
-        <h3><button>Записаться на экскурсию</button></h3>
-        <p>
-          Нажимая на кнопку, вы соглажаетесь с условиями
-          <b>Политики конфиденциальности</b>
-        </p>
-      </section>
-      <section>
-        <h1>Скачайте каталог проектов с ценами и планировками</h1>
-        <aside
-          style="
-            display: flex;
-            flex-direction: column;
-            width: 348px;
-            height: 495px;
-            background-color: wheat;
-            border-radius: 8px;
-            padding: 43px;
-            text-align: center;
-            gap: 10px;
-          "
-        >
-          <h1 style="font-size: 24px">Скачайте каталог топовых проектов</h1>
-          <p style="font-size: 16px">Мы вышлем подборку вам в мессенджер</p>
-          <b style="font-size: 13px">Куда отправить подборку?</b>
-          <div style="display: flex; justify-content: center; gap: 18px">
-            <p>What's app</p>
-            <p>Viber</p>
-            <p>Telegram</p>
+      <div class="all-blocks">
+        <div class="all-blocks__blocks">
+          <div class="all-blocks__blocks-block">
+            <div class="all-blocks__blocks-block-img"></div>
+            <div class="all-blocks__blocks-block-title">"Атаман"</div>
+            <div class="all-blocks__blocks-block-all">
+              <div class="all-blocks__blocks-block-all-content">
+                <p class="all-blocks__blocks-block-all-content-t">
+                  Площадь:
+                  <b class="all-blocks__blocks-block-all-content-s">108 м</b>
+                </p>
+                <p class="all-blocks__blocks-block-all-content-t">
+                  Размеры:
+                  <b class="all-blocks__blocks-block-all-content-s">7x9</b>
+                </p>
+              </div>
+              <div class="all-blocks__blocks-block-all-content">
+                <p class="all-blocks__blocks-block-all-content-t">
+                  Срок стройки:
+                  <b class="all-blocks__blocks-block-all-content-s">16 дней</b>
+                </p>
+                <p class="all-blocks__blocks-block-all-content-t">
+                  Комнат:
+                  <b class="all-blocks__blocks-block-all-content-s">5</b>
+                </p>
+              </div>
+            </div>
+            <div class="all-blocks__blocks-block-all">
+              <div class="all-blocks__blocks-block-all-subcontent">
+                <span class="all-blocks__blocks-block-all-subcontent-c">
+                  <div class="circle"></div>
+                  Тип дома:
+                  <b class="all-blocks__blocks-block-all-subcontent-t"
+                    >Каркасный</b
+                  >
+                </span>
+                <span class="all-blocks__blocks-block-all-subcontent-c">
+                  <div class="circle"></div>
+                  Стоимость:
+                  <b class="all-blocks__blocks-block-all-subcontent-t1"
+                    >от
+                    <span class="all-blocks__blocks-block-all-subcontent-n"
+                      >1 780 000</span
+                    >
+                    руб</b
+                  >
+                </span>
+              </div>
+            </div>
+            <div class="all-blocks__blocks-block-footer">
+              <button class="all-blocks__blocks-block-footer-btn">
+                Смотреть проекты
+                <img
+                  src="./icons/arrow.svg"
+                  alt=""
+                  class="all-blocks__blocks-block-footer-btn-i"
+                />
+              </button>
+              <img
+                src="./icons/sber.svg"
+                alt=""
+                class="all-blocks__blocks-block-footer-i"
+              />
+              <p class="all-blocks__blocks-block-footer-c">
+                Индивидуальная планировка дома
+              </p>
+            </div>
           </div>
-          <input
-            type="tel"
-            placeholder="+7"
-            style="
-              background-color: rgba(239, 239, 239, 1);
-              border: none;
-              padding: 12px 16px;
-              border-radius: 5px;
-              width: 258px;
-              color: rgba(122, 125, 129, 1);
-            "
-          />
-          <button
-            style="
-              padding: 14px 46px;
-              background-color: rgba(254, 170, 1, 1);
-              color: white;
-              border: none;
-              border-radius: 6px;
-              cursor: pointer;
-              width: 290px;
-            "
-          >
-            Получить каталог проектов
-          </button>
-          <p>
-            Нажимая на кнопку, вы соглашаетесь с условиями
-            <u><b>Политики конфиденциальности</b></u>
-          </p>
-        </aside>
-      </section>
-      <section>
-        <h1>Более 200 отзывов от наших клиентов</h1>
-        <article>
-          <img src="./images/DariaDostoevskaya.jpg" alt="" />
-          <h1>Дарья Достоевская</h1>
-          <p>23 декабря 2022</p>
-          <p>
-            Рыбатекст используется дизайнерами, проектировщиками и
-            фронтендерами, когда нужно быстро заполнить макеты или прототипы
-            содержимым... <button>Читать дальше</button>
-          </p>
-        </article>
-        <article>
-          <img src="./images/EvgeniyMayakovskiy.jpg" alt="" />
-          <h1>Евгений Маяковский</h1>
-          <p>23 декабря 2022</p>
-          <p>
-            Рыбатекст используется дизайнерами, проектировщиками и
-            фронтендерами, когда нужно быстро заполнить макеты или прототипы
-            содержимым... <button>Читать дальше</button>
-          </p>
-        </article>
-        <article>
-          <img src="./images/DariaDostoevskaya.jpg" alt="" />
-          <h1>Дарья Достоевская</h1>
-          <p>23 декабря 2022</p>
-          <p>
-            Рыбатекст используется дизайнерами, проектировщиками и
-            фронтендерами, когда нужно быстро заполнить макеты или прототипы
-            содержимым... <button>Читать дальше</button>
-          </p>
-        </article>
-      </section>
-      <section>
-        <img src="./images/OlegSolovyov.jpg" alt="" />
-        <h1>Здравствуйте, я Олег Соловьев, директор и основатель комании.</h1>
-        <p>
-          На рынке строительных услуг мы уже 14 лет. за это время нам удалось
-          сформировать сплоченный коллектив специалистов с более чем
-          двадцатилетним стажем. Вместе с тем я слежу за тем, чтобы наши
-          специалисты оставались в курсе последних технологий, совершенствовали
-          свои навыки.
-        </p>
-        <p><b>10</b> лет компания на рынке</p>
-        <p><b>200+</b> объектов построено</p>
-        <p><b>5</b> лет гарантия на работы</p>
-      </section>
-      <section>
-        <article>
-          <h1>Мы готовы ответить на любой вопрос</h1>
-          <p>
-            Рыбатекст используется дизайнерами, проектировщиками и
-            фронтендерами, когда нужно выстро заполнить макеты или прототипы
-            содержимым.
-          </p>
-        </article>
-        <article>
-          <h2>Возможна ли разработка индидуального проекта?</h2>
-          <h2>Возможна ли разработка индидуального проекта?</h2>
-          <p>
-            Рыбатекст используется дизайнерами, проектировщиками и
-            фронтендерами, когда нужно выстро заполнить макеты или прототипы
-            содержимым.
-          </p>
-          <h2>Возможна ли разработка индидуального проекта?</h2>
-          <h2>Возможна ли разработка индидуального проекта?</h2>
-          <h2>Возможна ли разработка индидуального проекта?</h2>
-          <h2>Возможна ли разработка индидуального проекта?</h2>
-        </article>
-      </section>
-      <section>
-        <article>
-          <h1>
-            Если у вас уже есть смета на строительство в 95% случаев мы
-            предлагаем меньшую стоимость и без потери качества
-          </h1>
-          <b>Как мы этого добиваемся?</b>
-          <p>
-            Оптовые скидки на проверенные материалы от партнеров (экономия до
-            30%)
-          </p>
-          <p>Оптимальный подбор материалов и поставщиков (экономия до 15%)</p>
-          <p>Налаженный рабочий процесс без потери времени (экономия до 20%)</p>
-        </article>
-        <article
-          style="
-            display: flex;
-            gap: 10px;
-            align-items: center;
-            flex-direction: column;
-            width: 390px;
-            height: 519px;
-            background-color: wheat;
-            padding: 39px 75px;
-          "
-        >
-          <h1 style="font-size: 19px">
-            Просто прикрепите готовую смету и вы узнаете, как сэкономить на
-            стройке
-          </h1>
-          <p style="font-size: 13px">
-            Инженер-сметчик рассчитает стоимость работ и материалов по оптовым
-            ценам
-          </p>
-          <!--У input type = file, временно text, чтобы немножко красивее сверстать в данный момент -->
-          <input
-            type="text"
-            style="
-              border: 1px solid rgba(127, 182, 60, 1);
-              padding: 11px;
-              border-radius: 4px;
-            "
-          />
-          <b>Куда отправить подборку?</b>
-          <div style="display: flex; gap: 11px; justify-content: center">
-            <p>What`s app</p>
-            <p>Viber</p>
-            <p>Telegram</p>
+          <div class="all-blocks__blocks-block">
+            <div class="all-blocks__blocks-block-img"></div>
+            <div class="all-blocks__blocks-block-title">"Атаман"</div>
+            <div class="all-blocks__blocks-block-all">
+              <div class="all-blocks__blocks-block-all-content">
+                <p class="all-blocks__blocks-block-all-content-t">
+                  Площадь:
+                  <b class="all-blocks__blocks-block-all-content-s">108 м</b>
+                </p>
+                <p class="all-blocks__blocks-block-all-content-t">
+                  Размеры:
+                  <b class="all-blocks__blocks-block-all-content-s">7x9</b>
+                </p>
+              </div>
+              <div class="all-blocks__blocks-block-all-content">
+                <p class="all-blocks__blocks-block-all-content-t">
+                  Срок стройки:
+                  <b class="all-blocks__blocks-block-all-content-s">16 дней</b>
+                </p>
+                <p class="all-blocks__blocks-block-all-content-t">
+                  Комнат:
+                  <b class="all-blocks__blocks-block-all-content-s">5</b>
+                </p>
+              </div>
+            </div>
+            <div class="all-blocks__blocks-block-all">
+              <div class="all-blocks__blocks-block-all-subcontent">
+                <span class="all-blocks__blocks-block-all-subcontent-c">
+                  <div class="circle"></div>
+                  Тип дома:
+                  <b class="all-blocks__blocks-block-all-subcontent-t"
+                    >Каркасный</b
+                  >
+                </span>
+                <span class="all-blocks__blocks-block-all-subcontent-c">
+                  <div class="circle"></div>
+                  Стоимость:
+                  <b class="all-blocks__blocks-block-all-subcontent-t1"
+                    >от
+                    <span class="all-blocks__blocks-block-all-subcontent-n"
+                      >1 780 000</span
+                    >
+                    руб</b
+                  >
+                </span>
+              </div>
+            </div>
+            <div class="all-blocks__blocks-block-footer">
+              <button class="all-blocks__blocks-block-footer-btn">
+                Смотреть проекты
+                <img
+                  src="./icons/arrow.svg"
+                  alt=""
+                  class="all-blocks__blocks-block-footer-btn-i"
+                />
+              </button>
+              <img
+                src="./icons/sber.svg"
+                alt=""
+                class="all-blocks__blocks-block-footer-i"
+              />
+              <p class="all-blocks__blocks-block-footer-c">
+                Индивидуальная планировка дома
+              </p>
+            </div>
           </div>
-          <input
-            type="tel"
-            placeholder="+7"
-            style="
-              background-color: rgba(239, 239, 239, 1);
-              border: none;
-              padding: 12px 16px;
-              border-radius: 5px;
-              width: 258px;
-              color: rgba(122, 125, 129, 1);
-            "
-          />
-          <button
-            style="
-              padding: 14px 46px;
-              background-color: rgba(254, 170, 1, 1);
-              color: white;
-              border: none;
-              border-radius: 6px;
-              cursor: pointer;
-              width: 290px;
-            "
-          >
-            Получить каталог проектов
-          </button>
-          <p>
-            Нажимая на кнопку, вы соглашаетесь с условиями
-            <u><b>Политики конфиденциальности</b></u>
-          </p>
-        </article>
-      </section>
-      <section>
-        <article>
-          <h1>Наши контакты</h1>
-          <p>г. Москва, улица Рубинштейна, 43</p>
-          <p>Без выходных с 10:00 до 20:00</p>
-          <p>+ 7 (800) 000-00-00</p>
-          <h3><button>Заказать обратный звонок</button></h3>
-          <p>Пишите, мы онлайн</p>
-          <button>Рассчитать стоимость</button>
-        </article>
-        <article><h1>Приезжайте к нам в офис</h1></article>
-      </section>
-    </main>
-    <footer>
-      <nav>
-        <a href=""><h2>ПРОЕКТЫ</h2></a>
-        <a href=""><h2>ФОТО РАБОТ</h2></a>
-        <a href=""><h2>АКЦИИ</h2></a>
-        <a href=""><h2>УСЛУГИ</h2></a>
-        <a href=""><h2>ЗАКАЗЧИКУ</h2></a>
-        <a href=""><h2>КОНТАКТЫ</h2></a>
-        <a href=""><h2>ИЗБРАННОЕ</h2></a>
-        <a href=""><h2>ПОИСК</h2></a>
-      </nav>
-      <p>Все права защищены 2022.</p>
-      <a href="">Политика обработки персональных данных</a>
-    </footer>
+          <div class="all-blocks__blocks-block">
+            <div class="all-blocks__blocks-block-img"></div>
+            <div class="all-blocks__blocks-block-title">"Атаман"</div>
+            <div class="all-blocks__blocks-block-all">
+              <div class="all-blocks__blocks-block-all-content">
+                <p class="all-blocks__blocks-block-all-content-t">
+                  Площадь:
+                  <b class="all-blocks__blocks-block-all-content-s">108 м</b>
+                </p>
+                <p class="all-blocks__blocks-block-all-content-t">
+                  Размеры:
+                  <b class="all-blocks__blocks-block-all-content-s">7x9</b>
+                </p>
+              </div>
+              <div class="all-blocks__blocks-block-all-content">
+                <p class="all-blocks__blocks-block-all-content-t">
+                  Срок стройки:
+                  <b class="all-blocks__blocks-block-all-content-s">16 дней</b>
+                </p>
+                <p class="all-blocks__blocks-block-all-content-t">
+                  Комнат:
+                  <b class="all-blocks__blocks-block-all-content-s">5</b>
+                </p>
+              </div>
+            </div>
+            <div class="all-blocks__blocks-block-all">
+              <div class="all-blocks__blocks-block-all-subcontent">
+                <span class="all-blocks__blocks-block-all-subcontent-c">
+                  <div class="circle"></div>
+                  Тип дома:
+                  <b class="all-blocks__blocks-block-all-subcontent-t"
+                    >Каркасный</b
+                  >
+                </span>
+                <span class="all-blocks__blocks-block-all-subcontent-c">
+                  <div class="circle"></div>
+                  Стоимость:
+                  <b class="all-blocks__blocks-block-all-subcontent-t1"
+                    >от
+                    <span class="all-blocks__blocks-block-all-subcontent-n"
+                      >1 780 000</span
+                    >
+                    руб</b
+                  >
+                </span>
+              </div>
+            </div>
+            <div class="all-blocks__blocks-block-footer">
+              <button class="all-blocks__blocks-block-footer-btn">
+                Смотреть проекты
+                <img
+                  src="./icons/arrow.svg"
+                  alt=""
+                  class="all-blocks__blocks-block-footer-btn-i"
+                />
+              </button>
+              <img
+                src="./icons/sber.svg"
+                alt=""
+                class="all-blocks__blocks-block-footer-i"
+              />
+              <p class="all-blocks__blocks-block-footer-c">
+                Индивидуальная планировка дома
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="all-blocks__blocks">
+          <div class="all-blocks__blocks-block">
+            <div class="all-blocks__blocks-block-img"></div>
+            <div class="all-blocks__blocks-block-title">"Атаман"</div>
+            <div class="all-blocks__blocks-block-all">
+              <div class="all-blocks__blocks-block-all-content">
+                <p class="all-blocks__blocks-block-all-content-t">
+                  Площадь:
+                  <b class="all-blocks__blocks-block-all-content-s">108 м</b>
+                </p>
+                <p class="all-blocks__blocks-block-all-content-t">
+                  Размеры:
+                  <b class="all-blocks__blocks-block-all-content-s">7x9</b>
+                </p>
+              </div>
+              <div class="all-blocks__blocks-block-all-content">
+                <p class="all-blocks__blocks-block-all-content-t">
+                  Срок стройки:
+                  <b class="all-blocks__blocks-block-all-content-s">16 дней</b>
+                </p>
+                <p class="all-blocks__blocks-block-all-content-t">
+                  Комнат:
+                  <b class="all-blocks__blocks-block-all-content-s">5</b>
+                </p>
+              </div>
+            </div>
+            <div class="all-blocks__blocks-block-all">
+              <div class="all-blocks__blocks-block-all-subcontent">
+                <span class="all-blocks__blocks-block-all-subcontent-c">
+                  <div class="circle"></div>
+                  Тип дома:
+                  <b class="all-blocks__blocks-block-all-subcontent-t"
+                    >Каркасный</b
+                  >
+                </span>
+                <span class="all-blocks__blocks-block-all-subcontent-c">
+                  <div class="circle"></div>
+                  Стоимость:
+                  <b class="all-blocks__blocks-block-all-subcontent-t1"
+                    >от
+                    <span class="all-blocks__blocks-block-all-subcontent-n"
+                      >1 780 000</span
+                    >
+                    руб</b
+                  >
+                </span>
+              </div>
+            </div>
+            <div class="all-blocks__blocks-block-footer">
+              <button class="all-blocks__blocks-block-footer-btn">
+                Смотреть проекты
+                <img
+                  src="./icons/arrow.svg"
+                  alt=""
+                  class="all-blocks__blocks-block-footer-btn-i"
+                />
+              </button>
+              <img
+                src="./icons/sber.svg"
+                alt=""
+                class="all-blocks__blocks-block-footer-i"
+              />
+              <p class="all-blocks__blocks-block-footer-c">
+                Индивидуальная планировка дома
+              </p>
+            </div>
+          </div>
+          <div class="all-blocks__blocks-block">
+            <div class="all-blocks__blocks-block-img"></div>
+            <div class="all-blocks__blocks-block-title">"Атаман"</div>
+            <div class="all-blocks__blocks-block-all">
+              <div class="all-blocks__blocks-block-all-content">
+                <p class="all-blocks__blocks-block-all-content-t">
+                  Площадь:
+                  <b class="all-blocks__blocks-block-all-content-s">108 м</b>
+                </p>
+                <p class="all-blocks__blocks-block-all-content-t">
+                  Размеры:
+                  <b class="all-blocks__blocks-block-all-content-s">7x9</b>
+                </p>
+              </div>
+              <div class="all-blocks__blocks-block-all-content">
+                <p class="all-blocks__blocks-block-all-content-t">
+                  Срок стройки:
+                  <b class="all-blocks__blocks-block-all-content-s">16 дней</b>
+                </p>
+                <p class="all-blocks__blocks-block-all-content-t">
+                  Комнат:
+                  <b class="all-blocks__blocks-block-all-content-s">5</b>
+                </p>
+              </div>
+            </div>
+            <div class="all-blocks__blocks-block-all">
+              <div class="all-blocks__blocks-block-all-subcontent">
+                <span class="all-blocks__blocks-block-all-subcontent-c">
+                  <div class="circle"></div>
+                  Тип дома:
+                  <b class="all-blocks__blocks-block-all-subcontent-t"
+                    >Каркасный</b
+                  >
+                </span>
+                <span class="all-blocks__blocks-block-all-subcontent-c">
+                  <div class="circle"></div>
+                  Стоимость:
+                  <b class="all-blocks__blocks-block-all-subcontent-t1"
+                    >от
+                    <span class="all-blocks__blocks-block-all-subcontent-n"
+                      >1 780 000</span
+                    >
+                    руб</b
+                  >
+                </span>
+              </div>
+            </div>
+            <div class="all-blocks__blocks-block-footer">
+              <button class="all-blocks__blocks-block-footer-btn">
+                Смотреть проекты
+                <img
+                  src="./icons/arrow.svg"
+                  alt=""
+                  class="all-blocks__blocks-block-footer-btn-i"
+                />
+              </button>
+              <img
+                src="./icons/sber.svg"
+                alt=""
+                class="all-blocks__blocks-block-footer-i"
+              />
+              <p class="all-blocks__blocks-block-footer-c">
+                Индивидуальная планировка дома
+              </p>
+            </div>
+          </div>
+          <div class="all-blocks__blocks-block">
+            <div class="all-blocks__blocks-block-img"></div>
+            <div class="all-blocks__blocks-block-title">"Атаман"</div>
+            <div class="all-blocks__blocks-block-all">
+              <div class="all-blocks__blocks-block-all-content">
+                <p class="all-blocks__blocks-block-all-content-t">
+                  Площадь:
+                  <b class="all-blocks__blocks-block-all-content-s">108 м</b>
+                </p>
+                <p class="all-blocks__blocks-block-all-content-t">
+                  Размеры:
+                  <b class="all-blocks__blocks-block-all-content-s">7x9</b>
+                </p>
+              </div>
+              <div class="all-blocks__blocks-block-all-content">
+                <p class="all-blocks__blocks-block-all-content-t">
+                  Срок стройки:
+                  <b class="all-blocks__blocks-block-all-content-s">16 дней</b>
+                </p>
+                <p class="all-blocks__blocks-block-all-content-t">
+                  Комнат:
+                  <b class="all-blocks__blocks-block-all-content-s">5</b>
+                </p>
+              </div>
+            </div>
+            <div class="all-blocks__blocks-block-all">
+              <div class="all-blocks__blocks-block-all-subcontent">
+                <span class="all-blocks__blocks-block-all-subcontent-c">
+                  <div class="circle"></div>
+                  Тип дома:
+                  <b class="all-blocks__blocks-block-all-subcontent-t"
+                    >Каркасный</b
+                  >
+                </span>
+                <span class="all-blocks__blocks-block-all-subcontent-c">
+                  <div class="circle"></div>
+                  Стоимость:
+                  <b class="all-blocks__blocks-block-all-subcontent-t1"
+                    >от
+                    <span class="all-blocks__blocks-block-all-subcontent-n"
+                      >1 780 000</span
+                    >
+                    руб</b
+                  >
+                </span>
+              </div>
+            </div>
+            <div class="all-blocks__blocks-block-footer">
+              <button class="all-blocks__blocks-block-footer-btn">
+                Смотреть проекты
+                <img
+                  src="./icons/arrow.svg"
+                  alt=""
+                  class="all-blocks__blocks-block-footer-btn-i"
+                />
+              </button>
+              <img
+                src="./icons/sber.svg"
+                alt=""
+                class="all-blocks__blocks-block-footer-i"
+              />
+              <p class="all-blocks__blocks-block-footer-c">
+                Индивидуальная планировка дома
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
