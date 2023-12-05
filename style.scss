@@ -19,7 +19,7 @@ body {
 }
 
 .circle {
-  @include circle(5px, 5px)
+  @include circle(5px, 5px);
 }
 
 .container-popular__title {
@@ -122,6 +122,14 @@ body {
             display: flex;
             align-items: center;
             gap: 10px;
+
+            &-t {
+              position: relative;
+              top: 6px;
+              display: flex;
+              align-items: center;
+              gap: 10px;
+            }
           }
 
           &-n {
@@ -155,11 +163,6 @@ body {
           color: white;
           font-size: 12px;
           font-weight: 700;
-
-          &-i {
-            width: 8px;
-            rotate: 180deg;
-          }
         }
 
         &-i {
@@ -172,7 +175,6 @@ body {
           font-size: 9px;
           margin-left: 9px;
           color: var(--gray2);
-          
         }
       }
     }
